@@ -1,0 +1,65 @@
+ body {
+     padding: 20px;
+ }
+
+ .flex-container {
+     margin: 20px 0 50px;
+     list-style: none;
+     border: 1px solid silver;
+     display:flex;
+     padding: 0;
+ }
+
+ .flex-item {
+     background: tomato;
+     width: 100px;
+     height: 100px;
+     margin: 10px;
+     line-height: 100px;
+     color: white;
+     text-align: center;
+ }
+
+
+ .item-order-1 {
+     order: 1;
+ }
+
+ .item-order-2 {
+     order: 2;
+ }
+
+ .item-order-3 {
+     order: 3;
+ }
+
+
+
+  .item-grow-1 {
+      flex-grow: 1;
+  }
+
+  .item-grow-2 {
+      flex-grow: 3;
+  }
+
+
+
+ .basis-content {
+     flex-basis: content;
+     width: auto;
+ }
+
+
+
+ .basis-20-percent {
+     flex-basis: 20%;
+     width: auto;
+ }
+
+ .basis-80-percent {
+     flex-basis: 60%;
+     width: auto;
+ }
+
+

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.content{
+    width: 25%;
+}
